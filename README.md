@@ -22,6 +22,10 @@ We used the exact tools we said we would use in our M2 design document:
 * **AI agent:** Google Gemini API
 * **Calendar Output:** exports .ics calendar files
 
+## Changes since M2
+* **Calendar output:** `.ics` export instead of the Google Calendar API
+* **LLM:** Google Gemini
+
 ## Setup
 ```bash
 git clone <repo-url> && cd PRV_201-Project
