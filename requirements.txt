@@ -1,1 +1,8 @@
-
+pymupdf
+pdfplumber
+chromadb
+sentence-transformers
+google-genai
+pydantic
+python-dotenv
+pytest
