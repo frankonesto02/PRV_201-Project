@@ -5,7 +5,7 @@
 **Track:** A 
 **Team Members and Roles**:
 * **Frank Onesto:** Repository scaffolding, base data schemas, and PDF ingestion pipeline
-* **Member 2:** Vector database indexing and retrieval pipeline
+* **Jayden Santana:** Vector database indexing and retrieval pipeline
 * **Member 3:** LLM agent (question answering), prompts, and guardrails (optional for now)
 * **Member 4:** Citation checker and test suite
 * **Member 5:** Table reader that finds due dates and exports them to a calendar file
