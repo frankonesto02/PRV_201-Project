@@ -46,3 +46,14 @@ src/calendar/     due-date table reader + .ics export
 tests/            pytest tests
 ```
 
+## Calendar
+
+The calendar component extracts assignment deadlines from syllabus tables
+and exports them to an .ics calendar file.
+
+Run from the main project folder:
+
+python -m src.calendar --year 2026
+
+See [calendar instructions](src/calendar/README.md) for setup and details.
+
