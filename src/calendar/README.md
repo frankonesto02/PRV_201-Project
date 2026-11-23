@@ -1,4 +1,4 @@
-# Deadline reader and calendar export — Dylan Toche
+# Deadline reader and calendar export
 
 This component takes table chunks from the existing PDF loader, creates the
 team's `AssignmentItem` objects, and exports dated items to an `.ics` file.
@@ -51,7 +51,7 @@ items = read_assignments(chunks, year=2026)
 export_calendar(items, "data/calendar/cs101.ics")
 ```
 
-## Limits to explain in M3
+## Limits
 
 This is a deterministic table reader, not the project's AI question-answering
 agent. It currently supports the column labels and table-row format above.
@@ -74,8 +74,3 @@ To test:
 ```bash
 python -m pytest
 ```
-
-For M3 evidence, run the command, save the terminal output, and show a few
-extracted deadlines next to their source syllabus rows. Import the `.ics` into
-a separate test calendar if you want a visual demo; calendar-app import has
-to be checked separately from the automated file tests.
