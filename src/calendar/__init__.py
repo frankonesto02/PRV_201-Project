@@ -1,5 +1,3 @@
-
-"""Dylan's syllabus deadline reader and calendar exporter."""
 from .ics_exporter import export_calendar
 from .table_reader import read_assignments
 
