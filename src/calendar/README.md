@@ -29,7 +29,7 @@ For a different timezone, supply `--timezone Europe/London`, for example.
 The default is `America/New_York`. Times are converted to UTC with daylight
 saving accounted for; dates without times become all-day events.
 
-## How the code fits together
+## How the code works with others
 
 - `table_reader.py`: reads `Assignment`, `Due Date`, and optional `Weight`
   fields from the loader's table rows. Grading breakdowns and weekly schedules
