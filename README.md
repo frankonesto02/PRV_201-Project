@@ -8,7 +8,7 @@
 * **Jayden Santana:** Vector database indexing and retrieval pipeline
 * **Member 3:** LLM agent (question answering), prompts, and guardrails (optional for now)
 * **Member 4:** Citation checker and test suite
-* **Member 5:** Table reader that finds due dates and exports them to a calendar file
+* **Dylan Toche:** Table reader that finds due dates and exports them to a calendar file
 
 ## Purpose
 This tool take college course syllabus PDFs and helps students to:
